@@ -1,0 +1,59 @@
+{
+  "name": "movie-fa",
+  "version": "1.0.0",
+  "description": "Movie FA",
+  "private": true,
+  "author": "Furkan Aksoylu",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.72",
+    "@types/node-sass": "^4.11.7",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-slick": "^0.23.13",
+    "axios": "^1.6.5",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^46.9.1",
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start:staging": "REACT_APP_ENV=staging react-scripts start",
+    "start:production": "REACT_APP_ENV=production react-scripts start",
+    "build:staging": "REACT_APP_ENV=staging react-scripts build",
+    "build:production": "REACT_APP_ENV=production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

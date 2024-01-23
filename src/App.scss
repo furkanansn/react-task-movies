@@ -1,0 +1,23 @@
+@import '../src/common/colors.scss';
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $secondary-color;
+  color: $font-primary;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: $primary-color;
+}
+
+.container {
+  margin: 0px 40px;
+  justify-content: center;
+}

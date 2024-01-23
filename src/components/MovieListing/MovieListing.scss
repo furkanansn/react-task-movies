@@ -1,0 +1,41 @@
+@import "../../common/colors.scss";
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+
+  button {
+    background-color: $primary-color;
+    color: $font-primary;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3125rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+
+    &:disabled {
+      background-color: #555;
+      cursor: not-allowed;
+    }
+  }
+
+  span {
+    font-size: 0.875rem;
+    margin: 0 0.625rem;
+    color: $font-primary;
+  }
+}
